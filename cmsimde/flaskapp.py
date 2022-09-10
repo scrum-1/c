@@ -11,7 +11,7 @@ import random
 import math
 import os
 # 利用 nocache.py 建立 @nocache decorator, 讓頁面不會留下 cache
-from nocache import nocache
+from .nocache import nocache
 import re
 import math
 import hashlib
